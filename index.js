@@ -26,7 +26,7 @@ app.post('/',(req,res)=>{
 
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/API").then(()=>console.log("database connected"))
+mongoose.connect("mongodb+srv://vfcvijin:111@new.j2g0m0h.mongodb.net/").then(()=>console.log("database connected"))
 
 app.listen(4000,()=>console.log("The Server is  Running"));
 
